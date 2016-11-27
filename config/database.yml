@@ -32,7 +32,7 @@ development:
   username: postgres
 
   # The password associated with the postgres role (username).
-  password: b3stPass!
+  password: <%= ENV['DIGITALLEAF_DATABASE_PASSWORD'] %>
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -58,12 +58,12 @@ development:
 test:
   <<: *default
   database: digitalleaf_test
-  
+
   username: postgres
 
   # The password associated with the postgres role (username).
-  password: b3stPass!
-  
+  password: <%= ENV['DIGITALLEAF_DATABASE_PASSWORD'] %>
+
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
 # ever seen by anyone, they now have access to your database.
@@ -88,5 +88,4 @@ production:
   database: digitalleaf_production
   username: postgres
   # ruby-getting-started
-  password: b3stPass!
-  #<%= ENV['RUBY-GETTING-STARTED_DATABASE_PASSWORD'] %>
+  password: <%= ENV['DIGITALLEAF_DATABASE_PASSWORD'] %>
