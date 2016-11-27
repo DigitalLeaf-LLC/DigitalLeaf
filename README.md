@@ -16,7 +16,10 @@ Currently being built
 
 ## Additional Information
 
-Building something like this can be fun and easy:
+Building something like this can be fun and easy
+
+  Check out [Getting Started on Rails] (http://guides.rubyonrails.org/getting_started.html) for useful information.
+
   For more information about using Ruby on Heroku, see these Dev Center articles:
 
   - [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
