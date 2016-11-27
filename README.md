@@ -6,11 +6,13 @@ Welcome to our web page. This page was built from a barebones Rails app.
 
 ### Founders
 
-` Leif Christiansen
-` Sahand Emamian
-` Lorander Saggu
+- <b> Leif Christiansen </b>
+- <b> Sahand Emamian </b>
+- <b> Lorander Saggu </b>
 
 ## Documentation
+
+Currently being built
 
 ## Additional Information
 
