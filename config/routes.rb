@@ -12,8 +12,8 @@ Rails.application.routes.draw do
   #   get 'products/:id' => 'catalog#view'
 
   get 'welcome/test'
-  get 'welcome/about'
-  get 'welcome/home'
+#  get 'welcome/about'
+#  get 'welcome/home'
 
   #blogs
   get 'blog/index'
