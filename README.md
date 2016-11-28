@@ -16,6 +16,10 @@ Currently being built
 
 Configuration files `database.yml` and `secrets.yml` are not in this repository - if they are needed, please request access.
 
+## License
+
+The license information for our project as well as any utilized tools in the development of this project may be found in the "legal" directory and any subdirectories of "legal"
+
 ## Additional Information
 
 Building something like this can be fun and easy
