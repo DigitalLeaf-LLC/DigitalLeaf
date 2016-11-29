@@ -12,9 +12,26 @@ Welcome to our web page. This page was built from a barebones Rails app.
 
 ## Documentation
 
-Currently being built
+DigitalLeaf is currently being built
 
-Configuration files `database.yml` and `secrets.yml` are not in this repository - if they are needed, please request access.
+### Getting started locally
+
+You want to run DigitalLeaf's Rails app locally, eh? I hope you are using it for ethical purposes. Let's get started.
+
+1. Install Ruby and Rails. Here is a step-by-step: [Rails Girls Guide] (http://guides.railsgirls.com/install)
+2. Clone this repository
+3. In your terminal, in your cloned repository directory, run `gem install bundler`
+4. Make sure that you have a database downloaded and installed (i.e. PostgreSQL, MySQL).
+5. Adjust `config/secrets.yml` and `config/database.yml` files if using PostgreSQL
+6. Edit `Gemfile` to include dependencies, edit database drivers, etc.
+7. Run `bundle install` in your project's root folder
+
+8. If all goes well, run `rails s` from the terminal in your project's root folder
+9. You should be running locally: find your site at http://localhost:3000
+
+### Good to know
+
+Configuration files `database.yml` and `secrets.yml` use environment variables for security purposes - if they are needed, please request access.
 
 ## License
 
