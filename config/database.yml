@@ -88,5 +88,4 @@ production:
   database: digitalleaf_production
   username: postgres
   # ruby-getting-started
-  password: b3stPass!
-  #<%= ENV['POSTGRES_PASS'] %>
+  password: <%= ENV['POSTGRES_PASS'] %>
