@@ -6,6 +6,10 @@ gem 'cowsay'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
+
+# Use DynamoDB from AWS as the database
+gem 'aws-sdk', '~> 2'
+
 # Use postgresql as the database for Active Record
 gem 'activerecord-jdbcpostgresql-adapter'
 gem 'rails_12factor', group: :production
@@ -42,4 +46,3 @@ gem 'puma'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
