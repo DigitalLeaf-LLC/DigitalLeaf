@@ -8,7 +8,7 @@ gem 'cowsay'
 gem 'rails', '4.1.8'
 
 # Use DynamoDB from AWS as the database
-gem 'aws-sdk', '~> 2'
+gem 'aws-sdk-rails'
 
 # Use postgresql as the database for Active Record
 gem 'activerecord-jdbcpostgresql-adapter'
